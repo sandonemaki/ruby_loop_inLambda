@@ -67,7 +67,7 @@ module Effects
             shifted_chars[i]
           end
         }.join
-      }.call
+      }.(words)
     end
   end
 end
