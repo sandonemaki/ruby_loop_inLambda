@@ -1,5 +1,6 @@
 require 'minitest/autorun'
 require_relative '../lib/effects_lam1'
+require_relative '../lib/effects_lam2'
 
 class EffectsTest < Minitest::Test
   def test_reverse

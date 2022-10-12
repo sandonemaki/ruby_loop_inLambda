@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require_relative '../lib/word_synth_lam1'
 require_relative '../lib/effects_lam1'
+require_relative '../lib/effects_lam2'
 
 class WordSynthTest < Minitest::Test
   def test_play_without_effects
